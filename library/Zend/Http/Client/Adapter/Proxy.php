@@ -298,6 +298,7 @@ class Zend_Http_Client_Adapter_Proxy extends Zend_Http_Client_Adapter_Socket
         // through the different modes
         $modes = array(
             // TODO: Add STREAM_CRYPTO_METHOD_TLSv1_3_CLIENT in the future when it is supported by PHP
+            STREAM_CRYPTO_METHOD_TLSv1_1_CLIENT,
             STREAM_CRYPTO_METHOD_TLSv1_2_CLIENT
         );
 
